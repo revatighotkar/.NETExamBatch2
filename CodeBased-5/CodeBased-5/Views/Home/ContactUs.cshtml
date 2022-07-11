@@ -1,0 +1,138 @@
+﻿<h1>@ViewData["Title"]</h1>
+<center> <h1> Create an Account </h1> </center>
+<form>
+    <table>
+        <tr>
+            <td>
+                <label for="uname">FULL Name</label>
+            </td>
+            <td>
+                <input type="text" id="uname" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="uemail">Email ID</label>
+            </td>
+            <td>
+                <input type="text" id="uemail" name="usermail">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <td>
+                <select id="age" name="Age">
+                    <option disabled selected>--Choose Age--</option>
+                    <optgroup label="select">
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                    </optgroup>
+                </select>
+
+        </tr>
+        <tr>
+            <td>
+                <label>Country</label>
+            </td>
+            <td>
+                <input type="text" value="India" name="country" enabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pass">Password</label>
+            </td>
+            <td>
+                <input type="password" id="pass">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Hobbies</label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" checked> Cricket
+                </label>
+                <label>
+                    <input type="checkbox"> Football
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" value="f" name="gender"> Female
+                </label>
+                <label>
+                    <input value="m" type="radio" name="gender"> Male
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="State">state</label>
+            </td>
+            <td>
+                <select id="State" name="State">
+                    <option disabled selected>--Choose State--</option>
+                    <optgroup label="select">
+                        <option>Maharashtra</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Tripura</option>
+                        <option>Odisha</option>
+                        <option>Uttarakhand</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Others</option>
+                    </optgroup>
+                </select>
+            </td>
+            </ tr>
+        <tr>
+            <td>
+                <label>Add yours city</label>
+            </td>
+            <td>
+                <input type="text" v" name="Others" enabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Pin code</label>
+            </td>
+            <td>
+                <input type="text" value="AS per your Govt.Id" name="Others" enabled>
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <textarea rows="4" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+</form>
